@@ -1,0 +1,20 @@
+.feed-input-opt{
+    display: flex;
+    flex-direction: row ;
+    color:grey;
+    cursor:pointer;
+    align-items: center;
+    padding:10px;
+}
+.feed-input-opt:hover{
+    border: 1px solid grey;
+    border:none;
+    border-radius: 6px;
+    color:black;
+    background: lightgrey;
+}
+
+.feed-input-opt>h4{
+    font-size: 18px;
+    font-weight: 600;
+}

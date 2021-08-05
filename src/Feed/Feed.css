@@ -1,0 +1,45 @@
+.feed {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  margin: 0 8px;
+  height: fit-content;
+  border-radius: 10px;
+}
+.feed-input {
+  display: flex;
+  border: 0.1px solid lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  color: grey;
+  /* position:sticky; */
+  background-color: white;
+  margin: 10px;
+  height: 6%;
+}
+.feed-inputContainer{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+}
+.feed-input > form {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.feed-input > form > input {
+  border: none;
+  margin-left: 10px;
+  flex:1;
+  font-weight: 650;
+  outline:none;
+  color:black;
+}
+.feed-input > form > button {
+  display: none;
+}
+.feed-opt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
